@@ -51,6 +51,7 @@
     * Курьер 
     * Статус
 
+<img width="542" height="262" alt="subject-area drawio" src="https://github.com/user-attachments/assets/85889207-b88b-4ea6-8c02-4379e5515b06" />
 
 
 
