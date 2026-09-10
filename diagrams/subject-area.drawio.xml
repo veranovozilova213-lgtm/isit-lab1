@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="gV0L2kfT_yZzCHf8Mi3R">
+    <mxGraphModel dx="1030" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Wshl5NTPjW4u6mFn7TWo-7" edge="1" parent="1" source="Wshl5NTPjW4u6mFn7TWo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Wshl5NTPjW4u6mFn7TWo-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wshl5NTPjW4u6mFn7TWo-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Служба доставки" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Wshl5NTPjW4u6mFn7TWo-8" edge="1" parent="1" source="Wshl5NTPjW4u6mFn7TWo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Wshl5NTPjW4u6mFn7TWo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wshl5NTPjW4u6mFn7TWo-9" edge="1" parent="1" source="Wshl5NTPjW4u6mFn7TWo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Wshl5NTPjW4u6mFn7TWo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wshl5NTPjW4u6mFn7TWo-10" edge="1" parent="1" source="Wshl5NTPjW4u6mFn7TWo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Wshl5NTPjW4u6mFn7TWo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wshl5NTPjW4u6mFn7TWo-11" edge="1" parent="1" source="Wshl5NTPjW4u6mFn7TWo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Wshl5NTPjW4u6mFn7TWo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wshl5NTPjW4u6mFn7TWo-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Заказ" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Wshl5NTPjW4u6mFn7TWo-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Клиент" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Wshl5NTPjW4u6mFn7TWo-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Адрес" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Wshl5NTPjW4u6mFn7TWo-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Курьер" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Wshl5NTPjW4u6mFn7TWo-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Статус" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
