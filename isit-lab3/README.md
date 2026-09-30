@@ -156,11 +156,13 @@ project/
 Диаграмма архитектуры системы
 
 
+<img width="737" height="1022" alt="Лаба 3 диагр 1 drawio" src="https://github.com/user-attachments/assets/c81a3da9-16bf-4c90-9acb-b055d9ef1f71" />
 
 
 
 Диаграмма взаимодействия компонентов
 
+<img width="5734" height="3712" alt="диаграмма 2" src="https://github.com/user-attachments/assets/ed246e52-9071-41fe-9ea2-ef005603b2cc" />
 
 
 
