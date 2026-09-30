@@ -45,6 +45,7 @@
 
 
 Навигация построена вокруг главной страницы. Пользователь может попасть в нее из любого раздела, а также может перемещаться между разделами.
+<img width="836" height="981" alt="лаба4 drawio" src="https://github.com/user-attachments/assets/19a75d09-2601-40da-93da-d0fe1a96b3d1" />
 
 
 
@@ -59,10 +60,19 @@
 
 
 1. Экран авторизации
+<img width="1512" height="982" alt="Страница авторизации" src="https://github.com/user-attachments/assets/567dea36-1b5f-4553-9f10-fc1a996f945b" />
+
 2. Экран главной страницы
+<img width="1512" height="982" alt="Главная страница" src="https://github.com/user-attachments/assets/26a1d21d-5a56-4634-88f3-c8036024e7ea" />
+
 3. Экран списка заказов
+<img width="1512" height="982" alt="Список заказов" src="https://github.com/user-attachments/assets/62595047-45f3-452a-aca6-22c2d1d101e8" />
+
 4. Экран просмотра заказа
+<img width="1512" height="982" alt="Просмотр заказов" src="https://github.com/user-attachments/assets/72bc4ae5-0fd9-421a-bd1a-8497988ecee5" />
+
 5. Экран редактирования и сохранения заказа
+<img width="1512" height="982" alt="редактирование заказов" src="https://github.com/user-attachments/assets/55a7ac21-db57-43b4-a527-afcfa2bdacda" />
 
 
 
