@@ -1,0 +1,221 @@
+/* Оформление в стиле макетов из Figma: серые карточки, скругления, шрифт Sofia Sans Condensed. */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sofia Sans Condensed', Arial, sans-serif;
+    background: #ededed;
+    color: #111;
+    margin: 0;
+    font-size: 18px;
+}
+
+/* Верхняя панель */
+.topbar {
+    background: #cfcfcf;
+    padding: 18px 30px;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 20px;
+}
+
+.topbar-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+    .topbar-menu a {
+        color: #111;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 4px 10px;
+        border-radius: 10px;
+        transition: background 0.15s;
+    }
+
+        .topbar-menu a:hover,
+        .topbar-menu a.active {
+            background: #bcbcbc;
+        }
+
+/* Содержимое по центру */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px 30px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 10px 0 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 24px 0 12px;
+}
+
+/* Карточка */
+.card {
+    background: #cfcfcf;
+    border-radius: 20px;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+}
+
+/* Поля форм */
+label {
+    display: block;
+    margin-top: 14px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 4px;
+    font-family: inherit;
+    font-size: 18px;
+    border: 1px solid #9a9a9a;
+    border-radius: 10px;
+    background: #ededed;
+}
+
+    input:focus, select:focus, textarea:focus {
+        outline: 2px solid #6b6b6b;
+    }
+
+/* Ошибка под полем */
+.error {
+    color: #b00020;
+    font-size: 15px;
+    min-height: 18px;
+}
+
+/* Кнопки */
+button {
+    padding: 10px 22px;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #7a7a7a;
+    border-radius: 12px;
+    background: #ffffff;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+    button:hover {
+        background: #f1f1f1;
+    }
+
+    button.primary {
+        background: #ffffff;
+        color: #111;
+    }
+
+    button.danger {
+        color: #b00020;
+        border-color: #b00020;
+    }
+
+    button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+/* Строка фильтров */
+.toolbar {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+    .toolbar select,
+    .toolbar input {
+        flex: 1;
+        margin-top: 0;
+        background: #cfcfcf;
+        border: none;
+        border-radius: 12px;
+        padding: 10px 14px;
+    }
+
+    .toolbar button {
+        white-space: nowrap;
+    }
+
+/* Таблица */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+}
+
+th {
+    text-align: left;
+    padding: 8px 12px;
+    font-size: 18px;
+    color: #555;
+    font-weight: 700;
+    background: transparent;
+}
+
+td {
+    padding: 12px;
+    background: #cfcfcf;
+    text-align: left;
+    font-size: 18px;
+}
+
+tr td:first-child {
+    border-radius: 12px 0 0 12px;
+}
+
+tr td:last-child {
+    border-radius: 0 12px 12px 0;
+}
+
+/* Сообщения */
+.message {
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    background: #cfcfcf;
+}
+
+    .message.error-message {
+        background: #f4c7c7;
+        color: #7a0015;
+    }
+
+/* Атрибут hidden должен скрывать */
+[hidden] {
+    display: none !important;
+}
+
+/* Доставленный заказ: зачёркнутый серый текст */
+tr.done td {
+    text-decoration: line-through;
+    color: #666;
+}
+
+/* Кнопки в строках таблицы */
+td button {
+    padding: 6px 14px;
+    font-size: 15px;
+    margin-right: 6px;
+    border-radius: 10px;
+}
+
+#counter {
+    font-size: 20px;
+    font-weight: 700;
+}

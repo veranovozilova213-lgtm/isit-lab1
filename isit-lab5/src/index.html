@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Заказы доставки</title>
+
+    <!-- Шрифт Sofia Sans Condensed из Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Верхняя панель с меню -->
+    <header class="topbar">
+        <nav class="topbar-menu">
+            <a href="#">Сводка по задачам</a>
+            <a href="#" class="active">Список заказов</a>
+            <a href="#">Статистика</a>
+            <a href="#">Выход</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Заказы доставки</h1>
+
+        <!-- Форма: сюда пользователь вводит данные нового заказа -->
+        <form id="task-form" class="card">
+            <h2>Новый заказ</h2>
+
+            <label for="task-title">Номер заказа</label>
+            <input id="task-title" type="text" placeholder="Например, 4657552">
+            <div class="error" id="error-title"></div>
+
+            <label for="task-courier">Курьер</label>
+            <input id="task-courier" type="text" placeholder="Имя курьера">
+
+            <label for="task-address">Адрес доставки</label>
+            <input id="task-address" type="text" placeholder="Город, улица, дом">
+
+            <label for="task-sum">Сумма, ₽</label>
+            <input id="task-sum" type="number" placeholder="Например, 1200">
+
+            <br><br>
+            <button type="submit" class="primary">Добавить заказ</button>
+        </form>
+
+        <h2>Список заказов</h2>
+
+        <!-- Элементы управления: фильтр по статусу, поиск, кнопка загрузки -->
+        <div class="toolbar">
+            <select id="status-filter">
+                <option value="">Все статусы</option>
+                <option value="new">Новый</option>
+                <option value="in_progress">В пути</option>
+                <option value="done">Доставлен</option>
+            </select>
+            <input id="search-input" type="text" placeholder="Поиск по номеру, курьеру или адресу...">
+            <button id="refresh-button">Загрузить с сервера</button>
+        </div>
+
+        <!-- Область отображения информации: «Загрузка…», «Ничего не найдено», ошибки -->
+        <div id="info" class="message">Нажмите «Загрузить с сервера»</div>
+
+        <!-- Таблицу заполняет JavaScript -->
+        <table id="task-table" hidden>
+            <thead>
+                <tr>
+                    <th>№ заказа</th>
+                    <th>Статус</th>
+                    <th>Курьер</th>
+                    <th>Адрес</th>
+                    <th>Сумма</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody id="task-body"></tbody>
+        </table>
+
+        <p>Заказов на странице: <strong id="counter">0</strong></p>
+    </div>
+
+    <!-- Скрипты подключаются в конце страницы, когда вся разметка уже загружена -->
+    <script src="js/mock-data.js"></script>
+    <script src="js/mock-api.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
