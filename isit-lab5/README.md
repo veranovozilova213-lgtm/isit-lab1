@@ -50,6 +50,7 @@
 |Вывод данных на страницу|`refreshList()`: показывает «Загрузка…», блокирует кнопку, выводит заказы в таблицу, обрабатывает пустой результат и ошибки|
 
 
+<img width="1919" height="991" alt="ScreenShot-01" src="https://github.com/user-attachments/assets/3c7a0249-c5b0-441b-a3c8-ff84bc64571d" />
 
 
 
@@ -94,7 +95,14 @@
 
 #### **Асинхронные запросы**
 
-
+```javascript
+const url = '/api/orders?status=' + status + '&q=' + encodeURIComponent(text);
+const response = await fetch(url);
+if (!response.ok) {
+  throw new Error('Ошибка сервера: ' + response.status);
+}
+return await response.json();
+```
 
 |**Состояние**|**Что видит пользователь**|
 |-|-|
@@ -102,6 +110,10 @@
 |Данные получены|таблица со строками и сообщение «Загружено задач: N»|
 |Данных нет |сообщение «Задачи не найдены…», таблица скрыта|
 |Ошибка|красное сообщение с ошибкой|
+
+<img width="1919" height="994" alt="01-Error-Server" src="https://github.com/user-attachments/assets/26ffb735-7865-4950-a5eb-211da832fe19" />
+<img width="1919" height="989" alt="02-Loading" src="https://github.com/user-attachments/assets/fb902406-5bce-485e-9951-3cccb95a6356" />
+<img width="1919" height="986" alt="03-Error-500" src="https://github.com/user-attachments/assets/b8936b7d-5228-48f6-b571-02f1a93fc9d4" />
 
 
 
