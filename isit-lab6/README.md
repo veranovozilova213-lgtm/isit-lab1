@@ -217,37 +217,42 @@ php -S localhost:8000 -t public
 
 ##### 
 
-##### **Главная страница**
+##### **Главная страница** <img width="1919" height="1024" alt="01-tasks" src="https://github.com/user-attachments/assets/7a1dd046-7902-46a5-a5b6-5b41317c5d06" />
+
 
 ##### 
 
 ##### 
 
-##### **Список задач**
+##### **Список задач** <img width="1919" height="1023" alt="02-list" src="https://github.com/user-attachments/assets/5e1098cf-253c-4529-b415-3d9a65576b34" />
+
 
 ##### 
 
 ##### 
 
-##### **Просмотр задачи**
+##### **Просмотр задачи** <img width="1919" height="1022" alt="03-kuryers" src="https://github.com/user-attachments/assets/c6a640b3-98b0-4bd0-a634-62b28898a002" />
+
 
 ##### 
 
 ##### 
 
-##### **Форма создания с ошибками проверки (код 422)**
+##### **Форма создания с ошибками проверки (код 422)** <img width="1919" height="1022" alt="06-error404" src="https://github.com/user-attachments/assets/a4bdc129-60ba-47fe-b98a-55e500b07311" />
+
 
 ##### 
 
 ##### 
 
-##### **Просмотр проекта**
+##### **Просмотр проекта** <img width="1898" height="1023" alt="05-image" src="https://github.com/user-attachments/assets/12a20257-4a0c-4427-9a14-79c856ad0bc6" />
+
 
 ##### 
 
 ##### 
 
-##### **Несуществующий адрес**
+
 
 
 
