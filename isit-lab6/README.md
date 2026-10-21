@@ -241,7 +241,7 @@ php -S localhost:8000 -t public
 
 ##### 
 
-##### **Форма создания с ошибками проверки (код 422)** 
+##### **Неверно введенный адрес** 
 <img width="1919" height="1022" alt="06-error404" src="https://github.com/user-attachments/assets/a4bdc129-60ba-47fe-b98a-55e500b07311" />
 
 
