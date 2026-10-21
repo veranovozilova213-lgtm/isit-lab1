@@ -54,10 +54,7 @@
 **Запуск:**
 
 cd lab6/src
-
 php -S localhost:8000 -t public
-
-
 
 **Открыть http:** //localhost:8000.
 
