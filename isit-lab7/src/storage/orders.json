@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "courier_id": 1,
+        "title": "Заказ № 4657545",
+        "status": "in_progress",
+        "address": "г. Зеленоград, ул. Юности, 9",
+        "sum": 1200
+    },
+    {
+        "id": 2,
+        "courier_id": 2,
+        "title": "Заказ № 4657546",
+        "status": "new",
+        "address": "г. Москва, ул. Ленина, 1",
+        "sum": 800
+    },
+    {
+        "id": 3,
+        "courier_id": 1,
+        "title": "Заказ № 4657547",
+        "status": "done",
+        "address": "г. Зеленоград, ул. Юности, 9",
+        "sum": 1200
+    },
+    {
+        "id": 4,
+        "courier_id": 3,
+        "title": "Заказ № 4657548",
+        "status": "new",
+        "address": "г. Химки, ул. Мира, 15",
+        "sum": 450
+    }
+]

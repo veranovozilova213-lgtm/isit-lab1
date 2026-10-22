@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Sofia Sans Condensed', Arial, sans-serif;
+    background: #ededed;
+    color: #111;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* --- ВЕРХНЯЯ ПАНЕЛЬ --- */
+.topbar {
+    background: #cfcfcf;
+    padding: 18px 30px;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 30px;
+}
+
+.nav-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.nav-link {
+    color: #111;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: background 0.15s;
+}
+
+    .nav-link:hover, .nav-link.active {
+        background: #bcbcbc;
+    }
+
+/* --- КОНТЕЙНЕР --- */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* --- КАРТОЧКИ --- */
+.card {
+    background: #cfcfcf;
+    border-radius: 20px;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+}
+
+/* --- СЕТКА И БЕЛЫЕ ПЛИТКИ НА ГЛАВНОЙ --- */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.stat-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+    .stat-card h3 {
+        font-size: 22px;
+        font-weight: 400;
+        color: #555;
+        margin-bottom: 10px;
+    }
+
+    .stat-card .number {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+/* --- ТАБЛИЦА --- */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    margin-top: -8px;
+}
+
+th {
+    text-align: left;
+    padding: 10px 15px;
+    font-weight: 700;
+    color: #555;
+}
+
+td {
+    background: #cfcfcf;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+tr td:first-child {
+    border-radius: 12px 0 0 12px;
+}
+
+tr td:last-child {
+    border-radius: 0 12px 12px 0;
+}
+
+td a {
+    color: #111;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* --- КНОПКИ --- */
+.btn, button {
+    display: inline-block;
+    padding: 10px 22px;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.15s;
+    background: #ffffff;
+    color: #111;
+    border: 1px solid #7a7a7a;
+}
+
+    .btn:hover, button:hover {
+        background: #f1f1f1;
+    }
+
+/* --- ФОРМЫ --- */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px 12px;
+    font-family: inherit;
+    font-size: 18px;
+    border: 1px solid #9a9a9a;
+    border-radius: 10px;
+    background: #ededed;
+}
+
+    input:focus, select:focus, textarea:focus {
+        outline: 2px solid #6b6b6b;
+    }
+
+/* --- ОШИБКИ И ФИЛЬТРЫ --- */
+.error-text {
+    color: #b00020;
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+.filters {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #111;
+    background: #ffffff;
+    border: 1px solid #7a7a7a;
+    font-weight: 700;
+}
+
+    .filter-btn:hover, .filter-btn.active {
+        background: #bcbcbc;
+        border-color: #bcbcbc;
+    }
+
+/* --- ПОДВАЛ --- */
+.footer {
+    text-align: center;
+    padding: 30px;
+    color: #777;
+    font-size: 16px;
+}
