@@ -115,9 +115,14 @@ php -S localhost:8000 -t public
 
 #### **Примеры запросов и ответов**
 
+<img width="1455" height="789" alt="01" src="https://github.com/user-attachments/assets/5b26622a-98ab-4510-bed0-91ab26ed68b6" />
+
+
 #### 
 
 ###### Создание задачи
+
+<img width="863" height="258" alt="07" src="https://github.com/user-attachments/assets/0f569cd2-4bac-47e8-a72c-461b4934fa67" />
 
 
 
@@ -136,26 +141,36 @@ php -S localhost:8000 -t public
 ###### GET: список с фильтром и задачи проекта
 
 
-
-###### POST: создание (201, Location)
-
+<img width="1455" height="789" alt="01" src="https://github.com/user-attachments/assets/2a68db36-f4eb-4d51-b15a-479149b145e0" />
 
 
 ###### POST: создание (201, Location)
+
+<img width="860" height="309" alt="09" src="https://github.com/user-attachments/assets/b77b3796-5491-451f-944e-19532e0babae" />
+
+
+###### PATCH: изменение
+
+<img width="863" height="258" alt="08" src="https://github.com/user-attachments/assets/fdb21efc-f2ee-452d-b397-471213257e3c" />
 
 
 
 ###### DELETE: 204 и повторное удаление (404)
+
+<img width="861" height="106" alt="11" src="https://github.com/user-attachments/assets/83d98a97-4106-49d9-abfb-db2fd9d8bc38" />
 
 
 
 ###### Ошибки 422 и 400
 
 
+<img width="861" height="252" alt="10" src="https://github.com/user-attachments/assets/beb42248-9227-4250-888b-d260dc675a40" />
 
-###### Ошибки 405, 409, 404
+
+###### Ошибка "заказ не найден"
 
 
+<img width="686" height="209" alt="03" src="https://github.com/user-attachments/assets/374388bc-5ffb-43f1-90e4-ffb4d3c31aa3" />
 
 
 
