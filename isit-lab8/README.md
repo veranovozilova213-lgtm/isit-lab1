@@ -43,6 +43,7 @@
 
 ER-диаграмма
 
+<img width="1304" height="949" alt="KTuCGg9gtzCHqsO1K1tTWYv0FqDGdNVCU_vRN5YPQEC6ifh7dh4HuXL23kOxcaes9piLaHBE-9l_R-K4AjKqbimg" src="https://github.com/user-attachments/assets/1ce118be-9650-4548-b49c-d5f9b549a7c0" />
 
 
 ### 1\. Предметная область
