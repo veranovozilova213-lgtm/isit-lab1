@@ -74,7 +74,9 @@
 #### **Авторизация**
 
 
+<img width="849" height="1187" alt="01-diogram" src="https://github.com/user-attachments/assets/28b20f70-1cb1-4f1d-8740-04e6d821816e" />
 
+<img width="385" height="95" alt="09-tokens-security" src="https://github.com/user-attachments/assets/662e3284-fff8-46df-9e4f-d6be9a949ac3" />
 
 
 
@@ -90,7 +92,9 @@
 |Удалять заказы|Да|нет, 403|нет, 403|
 |Создавать, изменять, удалять курьеров и участников|Да|нет, 403|нет, 403|
 
-
+#### **Пример запросов**
+<img width="1707" height="821" alt="08-api-curl-tests1" src="https://github.com/user-attachments/assets/a454470e-0b46-404c-9f40-c0f8a0b20cb3" />
+<img width="1707" height="821" alt="08-api-curl-tests2" src="https://github.com/user-attachments/assets/b2f0e95a-bcf7-4d48-8049-cf5c27b03e78" />
 
 
 
@@ -121,26 +125,33 @@
 
 
 Вход
+<img width="1915" height="986" alt="01-list" src="https://github.com/user-attachments/assets/9320eed8-aefb-4155-af16-83244514cda7" />
 
 
 
 Список задач руководителя
+<img width="933" height="986" alt="02-orders-manager" src="https://github.com/user-attachments/assets/d9738e2c-178d-4b87-878d-69f08d6e91d0" />
 
 
 
 Созданная задача
+<img width="939" height="882" alt="03-error-422" src="https://github.com/user-attachments/assets/e2277715-d6b8-44e7-8202-70d78babd4e4" />
 
 
 
 Ошибка проверки данных от сервера (422) под полем
+<img width="957" height="907" alt="06-network-error" src="https://github.com/user-attachments/assets/caf66f26-2ce8-4188-9ae2-39c229cffe07" />
+
 
 
 
 Интерфейс разработчика: нет кнопок «Удалить»
+<img width="940" height="908" alt="04-orders-developer" src="https://github.com/user-attachments/assets/29902d03-4386-4516-97fb-9d9270533da6" />
 
 
 
 Сессия истекла: возврат ко входу
+<img width="955" height="479" alt="05-session-expired" src="https://github.com/user-attachments/assets/a90ce7fe-3ce1-40f9-90b9-5b6a1bb7bb71" />
 
 
 
@@ -158,6 +169,7 @@
 |Сквозные сценарии в браузере|10|10|
 |Проверки безопасности|6|6|
 
+<img width="671" height="821" alt="07 -проверки" src="https://github.com/user-attachments/assets/99e51c1f-b3e7-41e8-847b-9847374f6ad2" />
 
 
 
