@@ -1,0 +1,36 @@
+@startuml
+skinparam maxMessageSize 150
+
+participant "Браузер\n(клиент: app.js, api.js)" as Client
+participant "Сервер PHP\n(public/index.php)" as Server
+participant "AuthController" as Auth
+database "PostgreSQL\n(users, auth_tokens)" as DB
+
+== Вход ==
+Client -> Server: POST /api/auth/login\n{"email": "...", "password": "..."}
+Server -> Auth: login()
+Auth -> DB: найти участника по email
+DB --> Auth: password_verify(пароль, password_hash)
+Auth -> DB: сохранить хеш токена и срок действия
+Auth --> Client: 200 {"token": "...", "user": {...}}
+note right of Client: токен и участник\nсохранены в localStorage
+
+== Любой следующий запрос ==
+Client -> Server: DELETE /api/orders/5\nAuthorization: Bearer <токен>
+Server -> DB: проверить: токен есть и срок не вышел?
+alt [токена нет, он неверный или просрочен]
+    Server --> Client: 401 Требуется авторизация
+    note left of Client: handleUnauthorized():\nэкран входа «Сессия истекла»
+else [токен есть]
+    alt [роль не manager]
+        Server --> Client: 403 Недостаточно прав
+    else [роль manager]
+        Server --> Client: 204 (заказ удален)
+    end
+end
+
+== Выход ==
+Client -> Server: POST /api/auth/logout\nAuthorization: Bearer <токен>
+Server -> DB: удалить хеш токена
+Server --> Client: 204
+@enduml
